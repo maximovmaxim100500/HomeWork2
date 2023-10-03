@@ -50,7 +50,22 @@ public class Main {
         System.out.println(sumMass);
         System.out.println(diffMass);
 
-        System.out.println("Задача 6"); //sfdgttjndtyhgm
+        System.out.println("Задача 7");
+        var diffMassM1 = massBoxer2 - massBoxer1;
+        var diffMassM2 = massBoxer2 % massBoxer1;
+        //System.out.println(diffMassM1);
+        //System.out.println(diffMassM2); выводить в задании не было)
+
+        System.out.println("Задача 8. Часть 1.");
+        var workShift = 8;
+        var genWorkingHours = 640;
+        var totalEmployees = genWorkingHours / workShift;
+        System.out.println("Всего работников в компании - " + totalEmployees + " человек.");
+        System.out.println("Задача 8. Часть 2.");
+        totalEmployees = totalEmployees + 94;
+        genWorkingHours = workShift * totalEmployees;
+        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + genWorkingHours + " часов " +
+                "работы может быть поделено между сотрудниками.");
 
     }
 }
