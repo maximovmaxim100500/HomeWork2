@@ -50,7 +50,7 @@ public class Main {
         System.out.println(sumMass);
         System.out.println(diffMass);
 
-        System.out.println("Задача 6");
+        System.out.println("Задача 6"); //sfdgttjndtyhgm
 
     }
 }
