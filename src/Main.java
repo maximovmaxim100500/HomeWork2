@@ -64,8 +64,10 @@ public class Main {
         System.out.println("Задача 8. Часть 2.");
         totalEmployees = totalEmployees + 94;
         genWorkingHours = workShift * totalEmployees;
-        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + genWorkingHours + " часов " +
+        System.out.println("Если в компании работает " + totalEmployees +
+                " человек, то всего " + genWorkingHours + " часов " +
                 "работы может быть поделено между сотрудниками.");
+
 
     }
 }
